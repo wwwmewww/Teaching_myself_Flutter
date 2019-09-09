@@ -1,0 +1,24 @@
+# TextStyle
+
+- 是否继承最近的默认样式,默认true inherit → bool
+- 背景 background → [Paint](#Paint)
+- 前景 foreground → [Paint](#Paint)
+- 文字颜色 color → [Color](#Color)
+- 文字背景色 backgroundColor → [Color](#Color)
+- 文字大小 fontSize → double
+- 文字样式 fontStyle → [FontStyle](#FontStyle)
+- 文字粗细 fontWeight → [FontWeight](#FontWeight)
+- 文字基线 textBaseline → [TextBaseline](#TextBaseline)
+- 划线 decoration → [TextDecoration](#TextDecoration)
+- 划线颜色 decorationColor → [Color](#Color)
+- 划线样式 decorationStyle → [TextDecorationStyle](#TextDecorationStyle)
+- 划线粗细,默认1.0 decorationThickness → double 
+- 字间距 letterSpacing → double
+- 单词间距 wordSpacing → double
+- 行间距 height → double (具体的值=fontSize*height)
+- 字体阴影 shadows → List<[Shadow](#Shadow)><br> ```shadows: [Shadow(color:Colors.red, offset: Offset(6, 3), blurRadius: 10)]```
+- 字体 fontFamily → String
+- 字体列表 fontFamilyFallback → List<String> ??
+- 字体列表 fontFeatures → List<FontFeature> ??
+- 选择语言区域 locale → [Locale](#Locale)<br> ```locale: Locale('fr', 'CH')```
+- 调试时的可读描述 debugLabe → String
